@@ -8,7 +8,8 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    name: main_job
     steps:
-      - run: echo "étape 1"
-      - run: echo "étape 2"
+      - run: echo "Récupération du code source"
+      - run: echo "Vérification terminée"
   
