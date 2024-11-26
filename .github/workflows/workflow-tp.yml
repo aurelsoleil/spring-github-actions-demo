@@ -1,0 +1,14 @@
+name: Workflow du TP1
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "étape 1"
+      - run: echo "étape 2"
+  
